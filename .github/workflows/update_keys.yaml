@@ -20,7 +20,7 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@v4
         with:
-          ref: master
+          ref: main
 
       - name: Setup NodeJS environment
         uses: actions/setup-node@v4
