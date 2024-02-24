@@ -69,8 +69,8 @@ jobs:
     if: success() || failure()
     runs-on: ubuntu-latest
     steps:
-      - name: Sleep for 2 minutes
-        run: sleep 120
+      - name: Sleep for 5 minutes
+        run: sleep 300
 
       - name: Re-trigger workflow
         run: gh workflow run update_keys.yaml
